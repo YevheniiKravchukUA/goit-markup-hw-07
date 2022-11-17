@@ -1,0 +1,41 @@
+// How to use ------------- @include {mixin name} (properties)
+
+@mixin main-font(
+  $weight: 400,
+  $size,
+  $height,
+  $spacing,
+  $style: normal,
+  $transform: none
+) {
+  font-family: "Roboto", sans-serif;
+  font-style: $style;
+  font-weight: $weight;
+  font-size: $size;
+  line-height: $height;
+
+  letter-spacing: $spacing;
+  text-transform: $transform;
+}
+
+@mixin secondary-font(
+  $weight: 400,
+  $size,
+  $height,
+  $spacing,
+  $style: normal,
+  $transform: none
+) {
+  font-family: "Raleway", sens-serif;
+  font-style: $style;
+  font-weight: $weight;
+  font-size: $size;
+  line-height: $height;
+
+  letter-spacing: $spacing;
+  text-transform: $transform;
+}
+
+@mixin bordered($color) {
+  border: 1px solid $color;
+}
