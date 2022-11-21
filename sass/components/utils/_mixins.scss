@@ -8,7 +8,7 @@
   $style: normal,
   $transform: none
 ) {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: $style;
   font-weight: $weight;
   font-size: $size;
@@ -19,16 +19,15 @@
 }
 
 @mixin secondary-font(
-  $weight: 400,
   $size,
   $height,
   $spacing,
   $style: normal,
   $transform: none
 ) {
-  font-family: "Raleway", sens-serif;
+  font-family: 'Raleway', sens-serif;
   font-style: $style;
-  font-weight: $weight;
+  font-weight: 700;
   font-size: $size;
   line-height: $height;
 
