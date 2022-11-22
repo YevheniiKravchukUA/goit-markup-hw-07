@@ -35,6 +35,7 @@
   text-transform: $transform;
 }
 
-@mixin bordered($color) {
+@mixin bordered($color, $radius: 0px) {
   border: 1px solid $color;
+  border-radius: $radius;
 }

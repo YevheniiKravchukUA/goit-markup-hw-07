@@ -3,8 +3,8 @@ $colors: (
   'primary-light': rgba(117, 117, 117, 1),
   'secondary': rgba(33, 33, 33, 1),
   'active': rgba(33, 150, 243, 1),
-  'white': rgba(255, 255, 255, 1),
-  'black': rgba(0, 0, 0, 1),
+  'full-white': rgba(255, 255, 255, 1),
+  'full-black': rgba(0, 0, 0, 1),
 );
 
 @function getColor($key) {
